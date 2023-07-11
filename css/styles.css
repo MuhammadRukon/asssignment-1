@@ -102,3 +102,30 @@ header {
   font-weight: 700;
 }
 /* featured */
+
+/* hot deal */
+.hot-deal {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding: 100px 0;
+}
+.hot-deal .section-content {
+  margin-right: 100px;
+}
+/* hot deal */
+
+/* instagram */
+.instagram {
+  padding: 170px 0;
+}
+.instagram .section-description {
+  width: 50%;
+}
+.instagram .flower-2,
+.instagram .flower-3 {
+  background-color: #fff;
+}
+
+.instagram img {
+  width: 100%;
+}
+/* instagram */
