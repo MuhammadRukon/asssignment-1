@@ -4,12 +4,10 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 button {
   padding: 20px 43px;
   background: rgb(229, 84, 115);
@@ -28,7 +26,6 @@ button {
   line-height: normal;
   font-size: 40px;
 }
-
 .section-description {
   padding: 24px 0;
   color: rgba(39, 39, 39, 0.6);
@@ -37,7 +34,6 @@ button {
   width: 79%;
   margin: 0 auto;
 }
-
 .flex {
   display: flex;
   align-items: center;
@@ -58,7 +54,6 @@ header {
 .banner .section-title {
   font-size: 80px;
 }
-
 .banner .section-description {
   margin: 0;
   padding: 30px 0;
@@ -124,8 +119,36 @@ header {
 .instagram .flower-3 {
   background-color: #fff;
 }
-
 .instagram img {
   width: 100%;
 }
 /* instagram */
+
+/* latest deal */
+.latest-deal {
+  background-image: url("../images/Rectangle-9.png");
+  background-size: cover;
+  width: 100%;
+  padding: 120px 0;
+  margin-bottom: 140px;
+}
+.latest-deal-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+.latest-deal-input {
+  width: 700px;
+  height: 64px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 10px;
+  font-family: "Lato";
+  font-size: 16px;
+}
+.latest-deal-input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+}
+/* latest deal */
