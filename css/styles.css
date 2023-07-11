@@ -70,6 +70,7 @@ header {
 .flowers {
   gap: 20px;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .flower {
   background-color: rgba(167, 33, 98, 0.15);
@@ -97,6 +98,32 @@ header {
   font-weight: 700;
 }
 /* featured */
+
+/* support */
+.support {
+  background-color: rgba(39, 39, 39, 0.05);
+  margin-bottom: 150px;
+}
+.support .box {
+  text-align: center;
+  width: 33.34%;
+  padding: 60px 0;
+}
+.support .box-1 {
+  margin-top: 20px;
+}
+.support .box-1 .support-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.support-text {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+/* support */
 
 /* hot deal */
 .hot-deal {
@@ -177,6 +204,9 @@ header {
   margin: 0;
   width: 93%;
   padding: 10px 0 8px 0;
+}
+.review .icons {
+  color: rgb(255, 113, 137);
 }
 .dots {
   display: flex;
